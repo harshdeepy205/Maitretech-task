@@ -26,7 +26,7 @@ function Signin() {
                     alert("not found")
                 }
                 else {
-                    history.push('/')
+                    history.push('/home')
                 }
             }).catch(err => {
                 console.log(err)
